@@ -4,7 +4,7 @@
 When conducting a security audit for Solidity smart contracts, it's essential to cover a wide range of aspects to ensure the code's safety and integrity. Below, we provide a comprehensive checklist of questions and considerations to help guide your security audit process. These questions cover various aspects, including access control, asset flow, control flow, data flow, assumptions, dependencies, and security checklists.
 
 ### [@0xBeirao](https://github.com/0xBeirao) Checklist
-> This guy created another Greate ALL-IN-ONE checklist about Code Questions, Access Control, Vaults, ERC20, ERC721, Proxies, Signature, Locktime for staking, Account Abstraction, AMMs, Lending, MultiChains, Merkle Trees, LZ, ChainLink, Uniswap. Check this [out](https://www.beirao.xyz/blog/Security-checklist)!
+> This guy created another great ALL-IN-ONE checklist about Code Questions, Access Control, Vaults, ERC20, ERC721, Proxies, Signature, Locktime for staking, Account Abstraction, AMMs, Lending, MultiChains, Merkle Trees, LZ, ChainLink, Uniswap. Check this [out](https://www.beirao.xyz/blog/Security-checklist)!
 
 ### [@Composable_Sec](https://twitter.com/Composable_Sec) Verification Standard
 >This company has created a Smart Contract Verification System Standard. You can find it [here](https://github.com/ComposableSecurity/SCSVS), where there are 24 topics about smart contract verification requirements.
@@ -111,14 +111,7 @@ upgradeable contracts)
 - Are monitoring systems and processes in place to detect and respond to potential issues in real time?
 
 ### Conclusion
-This checklists are designed to help ensure that a thorough and comprehensive security audit is conducted for Solidity smart contracts. It covers a wide range of critical aspects to identify and mitigate potential vulnerabilities and risks in the code and its associated systems.
+These checklists are designed to help ensure that a thorough security audit is conducted for Solidity smart contracts. It covers a wide range of critical aspects to identify and mitigate potential vulnerabilities and risks in the code and its associated systems.
 
 In conclusion, a big shoutout to [@0xRajeev](https://twitter.com/0xRajeev), the [@TheSecureum](https://twitter.com/TheSecureum) team, [@pashovkrum](https://twitter.com/pashovkrum), [@OpenZeppelin](https://twitter.com/OpenZeppelin), [@drdr_zz](https://twitter.com/drdr_zz), [@Composable_Sec](https://twitter.com/Composable_Sec), [@tamjid0x01](https://twitter.com/tamjid0x01), [@0xJuancito](https://twitter.com/0xJuancito), [@bytes032](https://twitter.com/bytes032), and [@0xBeirao](https://twitter.com/0xBeirao). Guys, your knowledge and contributions will undoubtedly help foster a community of more robust and secure smart contract research.
 Thanks a lot!
-
-
-
-
-<!-- Thanks @0xRajeev and @TheSecureum team, @pashovkrum, @OpenZeppelin, @drdr_zz and @Composable_Sec, @tamjid0x01, @0xJuancito, @bytes032, @0xBeirao -->
-
-
