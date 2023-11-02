@@ -4,7 +4,7 @@
 The quitSystem function in the ODSafeManager contract allows a user to move their collateral to another destination. However, there's a critical oversight in the function: it doesn't check if the collateral type of the source matches the collateral type of the destination. This means a user can inadvertently (or maliciously) move collateral of one type to a destination expecting a different type. The destination then ends up with collateral it cannot use, potentially leading to financial loss or other unintended consequences.
 
 ## Proof of Concept
-```
+```solidity
  function quitSystem(uint256 _safe, address _dst) external safeAllowed(_safe) handlerAllowed(_dst) {
     SAFEData memory _sData = _safeData[_safe];
     ISAFEEngine.SAFE memory _safeInfo = ISAFEEngine(safeEngine).safes(_sData.collateralType, _sData.safeHandler);
@@ -29,7 +29,7 @@ Manual review
 
 ## Recommended Mitigation Steps
 Before executing the logic inside the quitSystem function, insert a check to ensure that the collateral types match:
-```
+```solidity
 SAFEData memory _dstData = _safeData[_safeDst];
 if (_srcData.collateralType != _dstData.collateralType) revert CollateralTypesMismatch();
 ```
