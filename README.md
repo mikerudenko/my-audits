@@ -24,3 +24,5 @@ You can also request a quote on [Code4rena](https://code4rena.com/@mrudenko) or 
 
 [Nouns Revolution](/code4rena/nouns-revolution.md)
 
+[NextGen](/code4rena/nextgen.md)
+
